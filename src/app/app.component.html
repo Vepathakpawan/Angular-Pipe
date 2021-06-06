@@ -1,0 +1,36 @@
+<div>
+    <h1>Angular Pipe</h1>
+    <table class="table table-dark">
+
+
+        <tbody>
+            <tr>
+
+                <h3>{{ "pawan" | lowercase }}</h3>
+
+            </tr>
+
+            <tr>
+
+                <h3>{{ "VEDPATHAK" | uppercase }}</h3>
+
+            </tr>
+            <tr>
+                <h3>{{ name | titlecase }}</h3>
+            </tr>
+            <tr>
+                <h3>{{ msg | titlecase }}</h3>
+            </tr>
+            <tr>
+                <h3>{{ fullName | slice:3:9 }}</h3>
+            </tr>
+
+            <tr>
+                <h3>{{ birthday | date: 'fullDate' }}</h3>
+            </tr>
+            <tr>
+                <h3>{{ birthday | date: 'fullDate' | uppercase }}</h3>
+            </tr>
+        </tbody>
+    </table>
+</div>
